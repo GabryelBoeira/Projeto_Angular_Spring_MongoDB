@@ -1,2 +1,2 @@
-# Projeto_Angular_Spring_MongoDB
+# Projeto Angular Spring MongoDB
  Projeto criado com base no curso adquirido na Udemy.
