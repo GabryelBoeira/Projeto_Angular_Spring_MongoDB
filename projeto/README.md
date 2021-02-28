@@ -4,8 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Get started with Angular, learn the fundamentals and explore advanced topics on our documentation website.
 
-- [Getting Started][quickstart]
-- [Architecture][architecture]
+- [Getting Started](https://angular.io/start)
+- [Architecture](https://angular.io/guide/architecture)
 
 ## Development server
 
