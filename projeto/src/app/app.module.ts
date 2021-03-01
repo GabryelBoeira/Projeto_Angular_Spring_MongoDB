@@ -14,15 +14,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AppComponent,
     MenuComponent,
     FooterComponent,
-    HomeComponent,
-    UsuarioComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
