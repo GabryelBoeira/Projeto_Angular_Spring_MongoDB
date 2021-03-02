@@ -1,3 +1,17 @@
 <p>usuario works!</p>
-<div>Nome do Usuário:</div>
-<div>{{ usuario.nome }}</div>
+<table border="1">
+  <thead>
+    <th>Nome</th>
+    <th>Email</th>
+  </thead>
+  <tbody *ngFor="let usuario of usuarioList">
+    <th>{{ usuario.nome }}</th>
+    <th>{{ usuario.email }}</th>
+  </tbody>
+  <tfoot>
+    total:
+    {{
+      usuarioList.length
+    }}
+  </tfoot>
+</table>
